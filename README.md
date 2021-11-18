@@ -13,12 +13,14 @@ My page is at https://charlehsin.github.io.
 
 - https://jekyllrb.com/tutorials/home/
 - https://jekyllrb.com/docs/
+- https://jekyllrb.com/docs/liquid/tags/
 
 ### Minimal Mistakes theme
 
 - https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - If this is hosted at GitHub Pages, check out remote-theme section.
 - https://github.com/mmistakes/minimal-mistakes
+- https://mademistakes.com/mastering-jekyll/how-to-link/
 
 ### bundle command
 

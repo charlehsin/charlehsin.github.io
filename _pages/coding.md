@@ -3,7 +3,7 @@ title: Coding
 permalink: /coding/
 ---
 
-The following lists Chih-fan's GitHub repositoriy for each topic.
+The following lists Chih-fan's GitHub repository for each topic.
 - .NET 5
    - Getting started guide (tutorial and sample codes) :
    [ASP.NET Core Web API](https://github.com/charlehsin/net5-webapi-tutorial) /

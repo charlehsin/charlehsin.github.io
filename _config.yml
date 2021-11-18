@@ -28,6 +28,7 @@ url: "https://charlehsin.github.io"
 repository: "charlehsin/charlehsin.github.io"
 #logo: "/assets/images/logo.jpg"
 search: true
+paginate: 5
 author:
   name     : "Chih-fan Hsin"
   email    : "chsin@umich.edu"
