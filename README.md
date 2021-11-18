@@ -1,14 +1,28 @@
 # This is my personal GitHub Pages
 
+My page is at https://charlehsin.github.io.
+
 ## Tutorials on creating the pages
 
-- My page is at https://charlehsin.github.io.
+### GitHub Pages
+
 - https://pages.github.com/
 - https://docs.github.com/en/pages/quickstart
+
+### jekyll
+
 - https://jekyllrb.com/tutorials/home/
 - https://jekyllrb.com/docs/
+
+### Minimal Mistakes theme
+
 - https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-- https://github.com/mmistakes/minimal-mistakes 
+   - If this is hosted at GitHub Pages, check out remote-theme section.
+- https://github.com/mmistakes/minimal-mistakes
+
+### bundle command
+
+- https://medium.com/@pk60905/bundle-install-and-bundle-update-80f3d6f52214
 
 ## Some useful Jekyll commands
 

@@ -30,6 +30,7 @@ repository: "charlehsin/charlehsin.github.io"
 search: true
 author:
   name     : "Chih-fan Hsin"
+  email    : "chsin@umich.edu"
   avatar   : "/assets/images/avatar.jfif"
   bio      : ""
   location : "Oregon, USA"
@@ -50,7 +51,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Default front matter
 defaults:
@@ -60,6 +61,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       comments: true
       read_time: true
@@ -71,6 +73,7 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
       comments: true
       related: true
