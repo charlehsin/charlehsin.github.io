@@ -7,7 +7,8 @@
 - https://docs.github.com/en/pages/quickstart
 - https://jekyllrb.com/tutorials/home/
 - https://jekyllrb.com/docs/
-- https://github.com/jekyll/minima
+- https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+- https://github.com/mmistakes/minimal-mistakes 
 
 ## Some useful Jekyll commands
 

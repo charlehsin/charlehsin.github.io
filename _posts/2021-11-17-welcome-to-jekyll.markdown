@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "First blog post using jekyll default!"
 date:   2021-11-17 08:19:01 -0800
 categories: jekyll update
