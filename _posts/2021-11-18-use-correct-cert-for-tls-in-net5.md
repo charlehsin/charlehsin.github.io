@@ -36,3 +36,5 @@ System.ComponentModel.Win32Exception (0x8009030E): No credentials are available 
     at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
     at app.TcpOperations.MyTcpServer.ProcessClientAsync() in D:\Codes\net5-crypto-tutorial\app\TcpOperations\MyTcpServer.cs:line 207
 {% endhighlight %}
+
+Furthermore, since the TLS certificate is issued by our self-signed certificate, we need to use our custom certificate validation logic. Check ValidateServerCertificate method at [MyTcpClient class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/TcpOperations/MyTcpClient.cs) for tutorial sample.
