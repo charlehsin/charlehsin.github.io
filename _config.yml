@@ -29,6 +29,7 @@ repository: "charlehsin/charlehsin.github.io"
 #logo: "/assets/images/logo.jpg"
 search: true
 paginate: 5
+
 author:
   name     : "Chih-fan Hsin"
   email    : "chsin@umich.edu"
@@ -39,6 +40,7 @@ author:
     - label: "Posts by categories"
       icon : "fas fa-fw fa-blog"
       url  : "https://charlehsin.github.io/categorized-posts/"
+
 footer:
   links:
     - label: "LinkedIn"
@@ -50,6 +52,14 @@ footer:
     - label: "Twitter"
       icon : "fab fa-fw fa-twitter-square"
       url  : "https://twitter.com/cfh256"
+
+social:
+  type:  "Person"
+  name:  "Chih-fan Hsin"
+  links:
+    - "https://twitter.com/cfh256"
+    - "https://github.com/charlehsin"
+    - "https://www.linkedin.com/in/cf-hsin/"
 
 # Build settings
 plugins:
@@ -82,10 +92,10 @@ defaults:
       classes: wide
       author_profile: true
       comments: true
-      related: true
       share: true
       show_date: true
 
+# Include
 include: ["_pages"]
 
 # Exclude from processing.
