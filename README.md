@@ -27,6 +27,10 @@ My page is at https://charlehsin.github.io.
 - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#google-search-console
 - https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html
 
+### Fontawesome icons
+
+- https://fontawesome.com/v5.15/icons?d=gallery
+
 ### bundle command
 
 - https://medium.com/@pk60905/bundle-install-and-bundle-update-80f3d6f52214

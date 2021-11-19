@@ -35,17 +35,21 @@ author:
   avatar   : "/assets/images/avatar.jfif"
   bio      : ""
   location : "Oregon, USA"
+  links:
+    - label: "Posts by categories"
+      icon : "fas fa-fw fa-blog"
+      url  : "https://charlehsin.github.io/categorized-posts/"
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/cf-hsin/"
+      icon : "fab fa-fw fa-linkedin"
+      url  : "https://www.linkedin.com/in/cf-hsin/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/charlehsin"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/charlehsin"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cfh256"
+      icon : "fab fa-fw fa-twitter-square"
+      url  : "https://twitter.com/cfh256"
 
 # Build settings
 plugins:
