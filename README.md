@@ -22,6 +22,11 @@ My page is at https://charlehsin.github.io.
 - https://github.com/mmistakes/minimal-mistakes
 - https://mademistakes.com/mastering-jekyll/how-to-link/
 
+### Google search console
+
+- https://mmistakes.github.io/minimal-mistakes/docs/configuration/#google-search-console
+- https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html
+
 ### bundle command
 
 - https://medium.com/@pk60905/bundle-install-and-bundle-update-80f3d6f52214
