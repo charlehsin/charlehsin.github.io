@@ -2,7 +2,7 @@
 title:  "Use a certificate with correct private key and storage flags for TCP TLS in .NET 5."
 date:   2021-11-18 08:00:00 -0800
 last_modified_at: 2021-11-19 16:00:00 -0800
-categories: coding net5
+categories: Coding DotNet5
 permalinks: /:categories/:year/:month/:day/:title.html
 ---
 

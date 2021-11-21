@@ -1,6 +1,6 @@
 ---
-title: Posts by categories
+title: Posts by Category
 layout: categories
-permalink: /categorized-posts/
+permalink: /categories/
 entries_layout: list #list, grid
 ---
