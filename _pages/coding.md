@@ -1,6 +1,6 @@
 ---
-title: Coding
-permalink: /coding/
+title                    : "Coding"
+permalink                : /coding/
 ---
 
 The following lists Chih-fan's GitHub repository for each topic.

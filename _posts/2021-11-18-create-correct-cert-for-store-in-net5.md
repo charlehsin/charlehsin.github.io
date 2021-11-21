@@ -1,9 +1,11 @@
 ---
-title:  "Create a certificate with correct private key and storage flags to be added to certificate store in .NET 5."
-date:   2021-11-18 06:08:00 -0800
-last_modified_at: 2021-11-19 16:00:00 -0800
-categories: Coding DotNet5
-permalinks: /:categories/:year/:month/:day/:title.html
+title                    : "Create a certificate with correct private key and storage flags to be added to certificate store in .NET 5."
+date                     : 2021-11-18 06:08:00 -0800
+last_modified_at         : 2021-11-19 16:00:00 -0800
+categories               : Coding DotNet5
+permalinks               : /:categories/:year/:month/:day/:title.html
+header:
+  teaser                 : /assets/images/teaser-create-cert.jpg
 ---
 
 .NET 5 provides great support to [create a self-signed certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.createselfsigned?view=net-5.0) and to [issue a certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.create?view=net-5.0). Related sample codes can be found at my [GitHub repository](https://github.com/charlehsin/net5-crypto-tutorial). The issued certificate by .NET 5 by default may not have the desired private key and storage flag settings to be added into the certificate store.  This post talks about how to make sure that the issued certificate have the private key and have the persistent storage flag before it is added to the certificate store.

@@ -1,9 +1,11 @@
 ---
-title:  "Use external OAuth 2.0 provider in ASP.NET (ASP.NET Core) 5 Web API."
-date:   2021-11-19 06:20:00 -0800
-last_modified_at: 2021-11-20 16:00:00 -0800
-categories: Coding DotNet5
-permalinks: /:categories/:year/:month/:day/:title.html
+title                    : "Use external OAuth 2.0 provider in ASP.NET (ASP.NET Core) 5 Web API."
+date                     : 2021-11-19 06:20:00 -0800
+last_modified_at         : 2021-11-20 16:00:00 -0800
+categories               : Coding DotNet5
+permalinks               : /:categories/:year/:month/:day/:title.html
+header:
+  teaser                 : /assets/images/teaser-oauth-provider.jpg
 ---
 
 ## Overview

@@ -38,6 +38,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 search                   : true
 search_full_content      : true
 breadcrumbs              : false
+teaser                   : /assets/images/teaser-default.jpg
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
