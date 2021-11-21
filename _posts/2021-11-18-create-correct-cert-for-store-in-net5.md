@@ -1,6 +1,7 @@
 ---
 title:  "Create a certificate with correct private key and storage flags to be added to certificate store in .NET 5."
 date:   2021-11-18 06:08:00 -0800
+last_modified_at: 2021-11-19 16:00:00 -0800
 categories: coding net5
 permalinks: /:categories/:year/:month/:day/:title.html
 ---
