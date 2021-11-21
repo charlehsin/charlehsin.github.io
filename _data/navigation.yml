@@ -3,3 +3,5 @@ main:
     url: /about/
   - title: "Coding"
     url: /coding/
+  - title: "Travel & Food"
+    url: /travel-and-food/

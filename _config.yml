@@ -29,20 +29,24 @@ repository: "charlehsin/charlehsin.github.io"
 #logo: "/assets/images/logo.jpg"
 search: true
 paginate: 5
+breadcrumbs: false
 
 author:
   name     : "Chih-fan Hsin"
-  email    : "chsin@umich.edu"
+  #email    : "chsin@umich.edu"
   avatar   : "/assets/images/avatar.jfif"
   bio      : ""
   location : "Oregon, USA"
-  links:
+  links    :
     - label: "Posts by categories"
       icon : "fas fa-fw fa-blog"
       url  : "https://charlehsin.github.io/categorized-posts/"
 
 footer:
-  links:
+  links    :
+    - label: "Email"
+      icon : "fas fa-fw fa-envelope-square"
+      url  : "mailto:chsin@umich.edu"
     - label: "LinkedIn"
       icon : "fab fa-fw fa-linkedin"
       url  : "https://www.linkedin.com/in/cf-hsin/"

@@ -3,8 +3,6 @@ title: Coding
 permalink: /coding/
 ---
 
-Check Chih-fan's .NET 5 coding [posts]({% link _pages/coding-posts-net5.md %}).
-
 The following lists Chih-fan's GitHub repository for each topic.
 - .NET 5
    - Getting started guide (tutorial and sample codes) :
@@ -17,3 +15,4 @@ The following lists Chih-fan's GitHub repository for each topic.
    - [Getting started guide (tutorial and sample codes)](https://github.com/charlehsin/docker-tutorial)
 - Azure services
    - [Getting started guide (tutorial and sample codes)](https://github.com/charlehsin/azure-cloud-tutorial)
+- [Jekyll and GitHub Pages](https://github.com/charlehsin/charlehsin.github.io)

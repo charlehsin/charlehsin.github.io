@@ -6,9 +6,15 @@ categories: coding net5
 permalinks: /:categories/:year/:month/:day/:title.html
 ---
 
+## Overview
+
 ASP.NET 5 provides the [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-5.0&tabs=visual-studio) for how to use external OAuth 2.0 provider. However, the documentation is for the web app, not for the web API. This post talks about how to use Facebook as the external OAuth 2.0 provider for the web API. This post is based on this [commit](https://github.com/charlehsin/net5-webapi-tutorial/commit/ef42ffa0f3633106fcb805001d38efca75595df6) in my [GitHub repository](https://github.com/charlehsin/net5-webapi-tutorial). The assumption is that you already have a working ASP.NET 5 Web API with JWT bearer authentication, and you only want to add the external OAuth 2.0 provider to your Web API.
 
-First, follow the ASP.NET 5 documentation above to get the Facebook App ID and the Facebook App secret, and to store the App ID and the App secret using Secret Manager. (For production usage, you need to use other approaches to store the secretes like App ID and App secret. This is beyond the scope of this post.) When you set up at the Facebook side, remember to configure the "https://our_hostname/signin-facebook" as the redirection URI. This will be used by ASP.NET Core.
+## Configuring Facebook OAuth 2.0 provider and storing the secrets 
+
+First, follow the ASP.NET 5 documentation above to get the Facebook App ID and the Facebook App secret, and to store the App ID and the App secret using Secret Manager. (For production usage, you need to use other approaches to store the secrets like App ID and App secret. This is beyond the scope of this post.) When you set up at the Facebook side, remember to configure the "https://our_hostname/signin-facebook" as the redirection URI. This will be used by ASP.NET Core.
+
+## Enabling Facebook at the ASP.NET Core Web API
 
 Then add Microsoft.AspNetCore.Authentication.Facebook package to your project. You need to specify the correct version since the latest version is only for ASP.NET 6.
 
@@ -28,12 +34,14 @@ services.AddAuthentication()
         })
     .AddFacebook(facebookOptions =>
         {
-            // This is assuming that we use the secrete storage to store the secretes.
+            // This is assuming that we use the secrete storage to store the secrets.
             facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
             facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
             facebookOptions.SaveTokens = true;
         });
 {% endhighlight %}
+
+## Implementing the authentication API
 
 Then, we need to create the API to sign in via the Facebook OAuth 2.0 provider. In my GitHub repository codes, it is the SignInFacebookAsync method from the [UsersController class](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Controllers/UsersController.cs). To explain this method better, the ordered authentication flow is described below.
 1. The front-end application sends the target API request. In our codes, it is "GET /api/Users/authenticate/facebook" (handled by SignInFacebookAsync method).
@@ -103,6 +111,8 @@ public async Task<IActionResult> SignInFacebookAsync()
     return Ok(token);
 }
 {% endhighlight %}
+
+## Discussion about using Facebook authentication scheme directly
 
 In our sample codes, we choose to use JWT authentication for our APIs. Different design can be used here. For example, you can configure API to use Facebook authentication scheme directly (instead of JWT or cookie) with [Authorize(AuthenticationSchemes = FacebookDefaults.AuthenticationScheme)]. In this case, once the authentication via Facebook is done, the API is authenticated. If you choose to do so, consider the following.
 1. If other claims, e.g., the role claim, need to be added, check this ASP.NET [post](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/claims?view=aspnetcore-6.0#extend-or-add-custom-claims-using-iclaimstransformation).
