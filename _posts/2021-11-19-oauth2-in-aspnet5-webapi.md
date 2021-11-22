@@ -1,7 +1,7 @@
 ---
 title                    : "Facebook OAuth 2.0 provider in ASP.NET Core 5 Web API."
 date                     : 2021-11-19 06:20:00 -0800
-last_modified_at         : 2021-11-21 16:00:00 -0800
+last_modified_at         : 2021-11-21 21:00:00 -0800
 categories               : Coding DotNet5
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
@@ -18,7 +18,7 @@ First, follow the ASP.NET 5 documentation above to get the Facebook App ID and t
 
 ## Enabling Facebook at the ASP.NET Core Web API
 
-Then add Microsoft.AspNetCore.Authentication.Facebook package to your project. You need to specify the correct version since the latest version is only for ASP.NET 6.
+Add Microsoft.AspNetCore.Authentication.Facebook package to your project. You need to specify the correct version since the latest version is only for ASP.NET 6.
 
 At the CreateHostBuilder method in [Program.cs](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Program.cs), since CreateDefaultBuilder is used, the user secrets configuration source is automatically added in Development mode.
 
@@ -45,7 +45,10 @@ services.AddAuthentication()
 
 ## Implementing the authentication API
 
-Then, we need to create the API to sign in via the Facebook OAuth 2.0 provider. In my GitHub repository codes, it is the SignInFacebookAsync method from the [UsersController class](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Controllers/UsersController.cs). To explain this method better, the ordered authentication flow is described below.
+We need to create the API to sign in via the Facebook OAuth 2.0 provider. In my GitHub repository codes, it is the SignInFacebookAsync method from the [UsersController class](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Controllers/UsersController.cs). To explain this method better, the ordered authentication flow is described below.
+
+{% include figure image_path="/assets/images/coding-facebook-oauth-flow.jpg" alt="Authentication flow among the front-end, ASP.NET Core, and Facebook." caption="Authentication flow among the front-end, ASP.NET Core, and Facebook." %}
+
 1. The front-end application sends the target API request. In our codes, it is "GET /api/Users/authenticate/facebook" (handled by SignInFacebookAsync method).
 2. Upon receiving the request, SignInFacebookAsync method goes to the "challenge" flow. ASP.NET Core's internal FacebookHandler does the real "challenge" flow to prepare for the redirection information. The redirection information includes the target provider's AuthorizationEndpoint path, the client-id, and the redirection_uri, etc. ASP.NET Core internally uses "/signin-facebook" as the redirection_uri. We do not need to change this. We only need to configure this path at Facebook OAuth 2.0 provider side. Then Redirection (302) is returned to the front-end application.
 3. The front-end application gets Redirection (302) and redirects to the target Facebook URL to perform the authentication at Facebook.
@@ -55,6 +58,9 @@ Then, we need to create the API to sign in via the Facebook OAuth 2.0 provider. 
 7. The front-end application gets Redirection (302) and redirects to the API URL.
 8. Upon receiving the request, SignInFacebookAsync method goes to the "authenticate" flow. And eventually returns with a JWT.
 9. Other APIs can use the JWT for authentication. At the end of this post, we will discuss another approach, using the Facebook authentication scheme directly.
+
+**Watch out!** If the front-end is the Swagger UI on a browser, redirecting to www.facebook.com will fail due to CORS policy. In this case, use browser's develop tool to check the target redirection URL and go to the target Facebook URL manually.
+{: .notice--info}
 
 The code block of SignInFacebookAsync method is the following.
 
