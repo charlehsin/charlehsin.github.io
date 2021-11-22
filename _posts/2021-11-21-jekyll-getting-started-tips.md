@@ -5,7 +5,7 @@ last_modified_at         : 2021-11-22 11:20:00 -0800
 categories               : Coding Jekyll
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
-  teaser                 : /assets/images/teaser-default.jpg
+  teaser                 : /assets/images/teaser-jekyll.jpg
 ---
 
 This post talks about some places I stumbled upon when creating this blog site using GitHub Pages and Jekyll.
