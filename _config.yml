@@ -53,21 +53,11 @@ social:
 # Site Author
 author:
   name                   : "Chih-fan Hsin"
-  email                  :
-  avatar                 : "/assets/images/avatar.jfif"
-  bio                    :
+  email                  : "chsin@umich.edu"
+  avatar                 : "/assets/images/avatar.jpg"
+  bio                    : Software developing foodie in love with travelling around the world.
   location               : "Oregon, USA"
   links:
-    - label              : "Posts by category"
-      icon               : "fas fa-fw fa-blog"
-      url                : "https://charlehsin.github.io/categories/"
-
-# Site Footer
-footer:
-  links:
-    - label              : "Email"
-      icon               : "fas fa-fw fa-envelope-square"
-      url                : "mailto:chsin@umich.edu"
     - label              : "LinkedIn"
       icon               : "fab fa-fw fa-linkedin"
       url                : "https://www.linkedin.com/in/cf-hsin/"
@@ -77,6 +67,22 @@ footer:
     - label              : "Twitter"
       icon               : "fab fa-fw fa-twitter-square"
       url                : "https://twitter.com/cfh256"
+
+# Site Footer
+footer:
+  links:
+    - label              : "LinkedIn"
+      icon               : "fab fa-fw fa-linkedin"
+      url                : "https://www.linkedin.com/in/cf-hsin/"
+    - label              : "GitHub"
+      icon               : "fab fa-fw fa-github"
+      url                : "https://github.com/charlehsin"
+    - label              : "Twitter"
+      icon               : "fab fa-fw fa-twitter-square"
+      url                : "https://twitter.com/cfh256"
+    - label              : "Email"
+      icon               : "fas fa-fw fa-envelope-square"
+      url                : "mailto:chsin@umich.edu"
 
 # Reading Files
 include:

@@ -1,7 +1,5 @@
 main:
+  - title: "Posts by Category"
+    url: /categories/
   - title: "About"
     url: /about/
-  - title: "Coding"
-    url: /coding/
-  - title: "Travel & Food"
-    url: /travel-and-food/

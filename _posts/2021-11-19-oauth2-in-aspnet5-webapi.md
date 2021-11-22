@@ -1,16 +1,16 @@
 ---
-title                    : "Use external OAuth 2.0 provider in ASP.NET (ASP.NET Core) 5 Web API."
+title                    : "Facebook OAuth 2.0 provider in ASP.NET Core 5 Web API."
 date                     : 2021-11-19 06:20:00 -0800
-last_modified_at         : 2021-11-20 16:00:00 -0800
+last_modified_at         : 2021-11-21 16:00:00 -0800
 categories               : Coding DotNet5
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
   teaser                 : /assets/images/teaser-oauth-provider.jpg
 ---
 
-## Overview
+ASP.NET 5's [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-5.0&tabs=visual-studio) is not clear about how to use external OAuth 2.0 provider for the web API. 
 
-ASP.NET 5 provides the [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-5.0&tabs=visual-studio) for how to use external OAuth 2.0 provider. However, the documentation is for the web app, not for the web API. This post talks about how to use Facebook as the external OAuth 2.0 provider for the web API. This post is based on this [commit](https://github.com/charlehsin/net5-webapi-tutorial/commit/ef42ffa0f3633106fcb805001d38efca75595df6) in my [GitHub repository](https://github.com/charlehsin/net5-webapi-tutorial). The assumption is that you already have a working ASP.NET 5 Web API with JWT bearer authentication, and you only want to add the external OAuth 2.0 provider to your Web API.
+This post talks about how to use Facebook as the external OAuth 2.0 provider for the web API. This is based on this [commit](https://github.com/charlehsin/net5-webapi-tutorial/commit/ef42ffa0f3633106fcb805001d38efca75595df6) in my [GitHub repository](https://github.com/charlehsin/net5-webapi-tutorial). The assumption is that you already have a working ASP.NET 5 Web API with JWT bearer authentication, and you only want to add the external OAuth 2.0 provider to your Web API.
 
 ## Configuring Facebook OAuth 2.0 provider and storing the secrets 
 

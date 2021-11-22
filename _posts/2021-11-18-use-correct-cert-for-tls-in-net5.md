@@ -1,12 +1,14 @@
 ---
-title                    : "Use a certificate with correct private key and storage flags for TCP TLS in .NET 5."
+title                    : "Valid certificate for TCP TLS in .NET 5."
 date                     : 2021-11-18 08:00:00 -0800
-last_modified_at         : 2021-11-19 16:00:00 -0800
+last_modified_at         : 2021-11-21 16:00:00 -0800
 categories               : Coding DotNet5
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
   teaser                 : /assets/images/teaser-tcptls-cred-error.jpg
 ---
+
+This post shows sample codes about how to create valid certificate for TCP TLS.
 
 .NET 5 provides great support to [create TCP listener and client in TCP TLS](https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream?view=net-6.0). Related sample codes can be found at my [GitHub repository](https://github.com/charlehsin/net5-crypto-tutorial). Specifically, check the implementation of the [these classes](https://github.com/charlehsin/net5-crypto-tutorial/tree/main/app/TcpOperations). Find how to use those classes at the implementation of the following method at [Program.cs](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Program.cs).
 
@@ -40,4 +42,5 @@ System.ComponentModel.Win32Exception (0x8009030E): No credentials are available 
     at app.TcpOperations.MyTcpServer.ProcessClientAsync() in D:\Codes\net5-crypto-tutorial\app\TcpOperations\MyTcpServer.cs:line 207
 {% endhighlight %}
 
-Furthermore, since the TLS certificate is issued by our self-signed certificate, we need to use our custom certificate validation logic. Check ValidateServerCertificate method at [MyTcpClient class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/TcpOperations/MyTcpClient.cs) for tutorial sample.
+**Watch out!** Since the TLS certificate is issued by our self-signed certificate, we need to use our custom certificate validation logic. Check ValidateServerCertificate method at [MyTcpClient class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/TcpOperations/MyTcpClient.cs) for tutorial sample.
+{: .notice--info}

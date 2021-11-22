@@ -1,14 +1,16 @@
 ---
-title                    : "Create a certificate with correct private key and storage flags to be added to certificate store in .NET 5."
+title                    : "Create and add certificate to certificate store in .NET 5."
 date                     : 2021-11-18 06:08:00 -0800
-last_modified_at         : 2021-11-19 16:00:00 -0800
+last_modified_at         : 2021-11-21 16:00:00 -0800
 categories               : Coding DotNet5
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
   teaser                 : /assets/images/teaser-create-cert.jpg
 ---
 
-.NET 5 provides great support to [create a self-signed certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.createselfsigned?view=net-5.0) and to [issue a certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.create?view=net-5.0). Related sample codes can be found at my [GitHub repository](https://github.com/charlehsin/net5-crypto-tutorial). The issued certificate by .NET 5 by default may not have the desired private key and storage flag settings to be added into the certificate store.  This post talks about how to make sure that the issued certificate have the private key and have the persistent storage flag before it is added to the certificate store.
+This post talks about how to issue certificate with the private key and the persist storage flag before adding it to the certificate store.
+
+.NET 5 provides great support to [create a self-signed certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.createselfsigned?view=net-5.0) and to [issue a certificate](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.certificaterequest.create?view=net-5.0). Related sample codes can be found at my [GitHub repository](https://github.com/charlehsin/net5-crypto-tutorial). Before the issued certificate is added to the certificate store, extra steps are needed to get the desired private key and storage flag settings. 
 
 First, let's create a self-signed certificate by using CertificateRequest. Please check the implementation of the following method at [CertificateOperations class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Certificates/CertificateOperations.cs). 
 
@@ -17,7 +19,10 @@ public static X509Certificate2 CreateSelfSignedCert(int keySize, string commonNa
     System.DateTimeOffset notBefore, System.DateTimeOffset notAfter);
 {% endhighlight %}
 
-Then we will use this self-signed certificate to issue a leaf certificate. Please check the implementation of the following method at [CertificateOperations class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Certificates/CertificateOperations.cs). In the implementation, CertificateRequest.Create method returns a X509Certificate2 with HasPrivateKey = false. To get the private key, X509Certificate2.CopyWithPrivateKey method is used.
+Then we will use this self-signed certificate to issue a leaf certificate. Please check the implementation of the following method at [CertificateOperations class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Certificates/CertificateOperations.cs). In the implementation, CertificateRequest.Create method returns a X509Certificate2 with HasPrivateKey = false. To get the private key, X509Certificate2.CopyWithPrivateKey method is used. 
+
+**Watch out!** If X509Certificate2.CopyWithPrivateKey is not used, the X509Certificate2 object does not have the private key.
+{: .notice--info}
 
 {% highlight csharp linenos %}
 public static X509Certificate2 IssueSignedCert(X509Certificate2 parentCert, 
@@ -27,7 +32,7 @@ public static X509Certificate2 IssueSignedCert(X509Certificate2 parentCert,
     bool includePrivateKey);
 {% endhighlight %}
 
-At this point, the X509Certificate2 object still has a ephemeral private key. So we need to get a new X509Certificate2 object with the correct private key storage flag. Please check the implementation of the following method at [CertificateOperations class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Certificates/CertificateOperations.cs).
+At this point, the X509Certificate2 object still has a ephemeral private key. We need to get a new X509Certificate2 object with the correct private key storage flag. Please check the implementation of the following method at [CertificateOperations class](https://github.com/charlehsin/net5-crypto-tutorial/blob/main/app/Certificates/CertificateOperations.cs).
 
 {% highlight csharp linenos %}
 public static X509Certificate2 GetCertWithStorageFlags(X509Certificate2 cert,
