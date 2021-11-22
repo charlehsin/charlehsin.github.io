@@ -1,28 +1,28 @@
 ---
 title                    : "Facebook OAuth 2.0 provider in ASP.NET Core 5 Web API."
 date                     : 2021-11-19 06:20:00 -0800
-last_modified_at         : 2021-11-21 21:00:00 -0800
+last_modified_at         : 2021-11-22 08:00:00 -0800
 categories               : Coding DotNet5
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
   teaser                 : /assets/images/teaser-oauth-provider.jpg
 ---
 
-ASP.NET 5's [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-5.0&tabs=visual-studio) is not clear about how to use external OAuth 2.0 provider for the web API. 
+ASP.NET Core 5's [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-5.0&tabs=visual-studio) is not clear about how to use external OAuth 2.0 provider for the Web API. 
 
-This post talks about how to use Facebook as the external OAuth 2.0 provider for the web API. This is based on this [commit](https://github.com/charlehsin/net5-webapi-tutorial/commit/ef42ffa0f3633106fcb805001d38efca75595df6) in my [GitHub repository](https://github.com/charlehsin/net5-webapi-tutorial). The assumption is that you already have a working ASP.NET 5 Web API with JWT bearer authentication, and you only want to add the external OAuth 2.0 provider to your Web API.
+This post talks about how to use Facebook as the external OAuth 2.0 provider for the Web API. This is based on this [commit](https://github.com/charlehsin/net5-webapi-tutorial/commit/ef42ffa0f3633106fcb805001d38efca75595df6) in my [GitHub repository](https://github.com/charlehsin/net5-webapi-tutorial). The assumption is that you already have a working Web API with JWT bearer authentication, and you only want to add the external OAuth 2.0 provider to your Web API.
 
 ## Configuring Facebook OAuth 2.0 provider and storing the secrets 
 
-First, follow the ASP.NET 5 documentation above to get the Facebook App ID and the Facebook App secret, and to store the App ID and the App secret using Secret Manager. (For production usage, you need to use other approaches to store the secrets like App ID and App secret. This is beyond the scope of this post.) When you set up at the Facebook side, remember to configure the "https://our_hostname/signin-facebook" as the redirection URI. This will be used by ASP.NET Core.
+First, follow the ASP.NET Core 5's [documentation](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/facebook-logins?view=aspnetcore-5.0) to get the Facebook App ID and the Facebook App secret, and to store the App ID and the App secret using Secret Manager. (For production usage, you need to use other approaches to store the secrets like App ID and App secret. This is beyond the scope of this post.) When you set up at the Facebook side, remember to configure the "https://our_hostname/signin-facebook" as the redirection URI. This will be used by ASP.NET Core.
 
 ## Enabling Facebook at the ASP.NET Core Web API
 
-Add Microsoft.AspNetCore.Authentication.Facebook package to your project. You need to specify the correct version since the latest version is only for ASP.NET 6.
+Add Microsoft.AspNetCore.Authentication.Facebook package to your project. You need to specify the correct version since the latest version at this time is only for ASP.NET Core 6.
 
 At the CreateHostBuilder method in [Program.cs](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Program.cs), since CreateDefaultBuilder is used, the user secrets configuration source is automatically added in Development mode.
 
-At Startup.ConfigureServices, use services.AddAuthentication().AddFacebook(), as shown in the following code block.
+At Startup.ConfigureServices, use services.AddAuthentication().AddFacebook(), as shown in the following sample codes.
 
 {% highlight csharp linenos %}
 services.AddAuthentication()
@@ -45,7 +45,7 @@ services.AddAuthentication()
 
 ## Implementing the authentication API
 
-We need to create the API to sign in via the Facebook OAuth 2.0 provider. In my GitHub repository codes, it is the SignInFacebookAsync method from the [UsersController class](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Controllers/UsersController.cs). To explain this method better, the ordered authentication flow is described below.
+We need to create the API to sign in via the Facebook OAuth 2.0 provider. In my GitHub repository codes, it is the SignInFacebookAsync method of the [UsersController class](https://github.com/charlehsin/net5-webapi-tutorial/blob/main/TodoApi/Controllers/UsersController.cs). To explain this method better, the ordered authentication flow is described below.
 
 {% include figure image_path="/assets/images/coding-facebook-oauth-flow.jpg" alt="Authentication flow among the front-end, ASP.NET Core, and Facebook." caption="Authentication flow among the front-end, ASP.NET Core, and Facebook." %}
 
