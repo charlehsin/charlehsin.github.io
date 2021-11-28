@@ -1,7 +1,7 @@
 ---
 title                    : "Creating blog site using GitHub Pages and Jekyll."
 date                     : 2021-11-22 11:20:00 -0800
-last_modified_at         : 2021-11-22 11:20:00 -0800
+last_modified_at         : 2021-11-28 08:00:00 -0800
 categories               : Coding Jekyll
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
@@ -20,11 +20,11 @@ This is not a complete guide to set up Jekyll. References about that are the fol
 
 I faced an issue when I was installing Ruby on Windows. I downloaded the latest Ruby installer without DevKit, and started the installation. When I was at "ridk install" step to set up MSYS2 and development toolchain, as shown in the figure below, I pressed Enter to do action 1 and action 3.
 
-{% include figure image_path="/assets/images/coding-ruby-msys2.jpg" alt="MSYS2 installation and the development toolchain setup." caption="MSYS2 installation and the development toolchain setup." %}
+{% include figure image_path="/assets/images/jekyll/coding-ruby-msys2.jpg" alt="MSYS2 installation and the development toolchain setup." caption="MSYS2 installation and the development toolchain setup." %}
 
 Then I encountered the errors like: "key XXXX is unknown" and "invalid or corrupted database", as shown in the figure below.
 
-{% include figure image_path="/assets/images/coding-ruby-msys2-error.jpg" alt="MSYS2 development toolchain setup error." caption="MSYS2 development toolchain setup error." %}
+{% include figure image_path="/assets/images/jekyll/coding-ruby-msys2-error.jpg" alt="MSYS2 development toolchain setup error." caption="MSYS2 development toolchain setup error." %}
 
 I found that I need to download and use the Ruby installer "with" DevKit, and check the "MSYS2 and development toolchain" when I select the components to install. With that, the installation and the toolchain setup were successful.
 
@@ -41,21 +41,20 @@ Once the blog is created and is up on GitHub Pages, I want it to be searchable a
 
 For my case, downloading the verification HTML file and hosting it on my site's root worked well for me. I downloaded Google's and Bing's files, put them at my site's root folder, and then pushed it to my GitHub Pages' repository. After I successfully viewed those files at my site URL on a web browser, I went back to click "Verify" button at Google Search Console and at Bing Webmaster Tools.
 
-{% include figure image_path="/assets/images/coding-jekyll-googleverification.jpg" alt="Google: Download HTML file and host it on your site's root to verify your site." caption="Google: Download HTML file and host it on your site's root to verify your site." %}
+<figure class="half">
+	<img src="/assets/images/jekyll/coding-jekyll-googleverification.jpg">
+	<img src="/assets/images/jekyll/coding-jekyll-bingverification.jpg">
+	<figcaption>Download HTML file and host it on your site's root to verify your site, for Google and Bing.</figcaption>
+</figure>
 
-{% include figure image_path="/assets/images/coding-jekyll-bingverification.jpg" alt="Bing: Download HTML file and host it on your site's root to verify your site." caption="Bing: Download HTML file and host it on your site's root to verify your site." %}
+Then I followed the posts above to get my sitemap file created, and added my sitemap file to Google Search Console and Bing Webmaster Tools. 
+- For Google, the sitemap file was submitted on Nov 19, and the checking was done on Nov 25. Before the checking was done, "Couldn't fetch" appeared at Status field as shown in the figure below showed up.
+- For Bing, the sitemap file was submitted on Nov 21, and the checking was done on Nov 21.
 
-Then I followed the posts above to get my sitemap file created, and added my sitemap file to Google Search Console and Bing Webmaster Tools. You can see the figures below that the sitemap checking at Google is pretty slow.
-
-**Watch out!** At this time (after 3 days), the sitemap checking is still not done at Google. I will update later when it is done.
-{: .notice--info}
-
-{% include figure image_path="/assets/images/coding-jekyll-googlesitemap.jpg" alt="Google: Sitemap (submitted on Nov 19) checking is still not ready on Nov 22." caption="Google: Sitemap (submitted on Nov 19) checking is still not ready on Nov 22." %}
-
-{% include figure image_path="/assets/images/coding-jekyll-bingsitemap.jpg" alt="Bing: Sitemap (submitted on Nov 21) checking is ready on Nov 21." caption="Bing: Sitemap (submitted on Nov 21) checking is ready on Nov 21." %}
+{% include figure image_path="/assets/images/jekyll/coding-jekyll-googlesitemap.jpg" alt="Google: An error message shows up if the sitemap checking is not done yet." caption="Google: \"Couldn't fetch\" appears at Status field if the sitemap checking is not done yet." %}
 
 Even if the sitemap checking is done, it does not mean that the site is indexed yet at Google or Bing.
-- For Google, I used "URL Inspection" at Google Search Console and found that my site were not indexed yet on Nov 21.
+- For Google, I used "URL Inspection" at Google Search Console and found that my site were not indexed yet on Nov 28.
 - For Bing, I used "URL Inspection" at Bing Webmaster Tools and found that my site were not indexed yet on Nov 21. The indexing was done on Nov 22. So the total time from adding the site to being searchable is 1 to 2 days.
 
 **Watch out!** I will update later when my site is indexed at Google and is searchable at Google.
