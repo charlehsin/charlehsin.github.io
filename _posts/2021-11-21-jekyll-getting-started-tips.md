@@ -1,7 +1,7 @@
 ---
 title                    : "Creating blog site using GitHub Pages and Jekyll."
 date                     : 2021-11-22 11:20:00 -0800
-last_modified_at         : 2021-11-28 08:00:00 -0800
+last_modified_at         : 2021-12-01 07:00:00 -0800
 categories               : Coding Jekyll
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
@@ -54,11 +54,9 @@ Then I followed the posts above to get my sitemap file created, and added my sit
 {% include figure image_path="/assets/images/jekyll/coding-jekyll-googlesitemap.jpg" alt="Google: An error message shows up if the sitemap checking is not done yet." caption="Google: \"Couldn't fetch\" appears at Status field if the sitemap checking is not done yet." %}
 
 Even if the sitemap checking is done, it does not mean that the site is indexed yet at Google or Bing.
-- For Google, I used "URL Inspection" at Google Search Console and found that my site were not indexed yet on Nov 28.
+- For Google, I used "URL Inspection" at Google Search Console and found that my site were not indexed yet on Nov 30. The indexing was done on Dec 1. So the total time from adding the site to being searchable is 12 to 13 days.
 - For Bing, I used "URL Inspection" at Bing Webmaster Tools and found that my site were not indexed yet on Nov 21. The indexing was done on Nov 22. So the total time from adding the site to being searchable is 1 to 2 days.
 
-**Watch out!** I will update later when my site is indexed at Google and is searchable at Google.
-{: .notice--info}
 
 
 
