@@ -2,7 +2,7 @@
 title                    : "Brunch at Little Griddle cafe in Portland, Oregon"
 date                     : 2021-12-18 14:00:00 -0800
 last_modified_at         : 2021-12-18 14:00:00 -0800
-categories               : Travel Food Seattle
+categories               : Food Portland
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
   teaser                 : /assets/images/teaser-portland-littlegriddle-12-2021.jpg
