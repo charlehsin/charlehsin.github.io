@@ -1,7 +1,7 @@
 ---
 title                    : "Brunch at Little Griddle cafe in Portland, Oregon"
 date                     : 2021-12-18 14:00:00 -0800
-last_modified_at         : 2021-12-18 14:00:00 -0800
+last_modified_at         : 2021-12-29 11:00:00 -0800
 categories               : Food Portland
 permalinks               : /:categories/:year/:month/:day/:title.html
 header:
@@ -27,3 +27,12 @@ The country benedict came with collard greens, Hollandaise, poached egg, braised
 The bacon and spinach skillet came with bacon, melted leeks, garlic, spinach, two baked eggs, all in cheddar-Parmesan cream sauce, and a Panko crust. I enjoyed this dish a lot. The included side salad also tasted very good.
 
 Overall, this is a place which we will definitely visit again.
+
+<figure class="third">
+	<img src="/assets/images/portland/littlegriddle-huevos-benedictos-12-2021.jpg">
+	<img src="/assets/images/portland/littlegriddle-buttermilk-pancake-12-2021.jpg">
+	<img src="/assets/images/portland/littlegriddle-french-toast-12-2021.jpg">
+	<figcaption>Left: Huevos Benedictos. Middle: Buttermilk pancake with blueberry. Right: French toast (1 slice).</figcaption>
+</figure>
+
+Update: We visited Little Griddle cafe again on Dec 29th. It did not disappoint us. We ordered several different dishes this time. Huevos benedictos ($15) came with braised spiced pork shoulder, avocado, cilantro, Cotija, hollandaise, pico de gallo, citrus squeeze, on an English muffin. The citrus squeeze taste is pretty good and unique. The spiced pork shoulder is tender and juicy. The buttermilk pancake ($4 for 1 cake) has real blueberry jam ($2) inside. We all liked the pancake a lot. The real blueberry jam is not sweet, which is perfect. It matched very well with pancake. The house french toast ($7 for 1 slice) has very strong egg flavor.
