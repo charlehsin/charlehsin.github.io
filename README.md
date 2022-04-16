@@ -42,3 +42,7 @@ My page is at https://charlehsin.github.io.
    - Only need "bundle exec" the 1st you run this command.
 - (Serve our site and auto build on changes) jekyll serve --incremental
 - (Server ) jekyll serve --draft
+
+## Some useful tools
+
+- [Free US maps from USGS](https://apps.nationalmap.gov/viewer/)
