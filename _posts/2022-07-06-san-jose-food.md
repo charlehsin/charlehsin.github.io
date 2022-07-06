@@ -12,7 +12,7 @@ My family haven't been to California for quite a while, and we have been to Seat
 
 ## Day 1
 
-Our Southwest flight from Portland, Oregon landed at San Jose airport around noon, and then we picked up the rental car at Avis. There were a long line at Avis and it took 1 hour to get our rental car.
+Our Southwest flight from Portland, Oregon lands at San Jose airport around noon, and then we pick up the rental car at Avis. There is a long line at Avis and it takes 1 hour to get our rental car.
 
 We have the late lunch at [Taiwan Cafe (林家萬巒豬腳)](https://www.taiwancafemilpitas.com/) at Milpitas. We arrive just minutes before they stop taking any new customer for their lunch break.
 
