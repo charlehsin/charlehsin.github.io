@@ -39,9 +39,9 @@ My page is at https://charlehsin.github.io.
 
 - (Create new site) jekyll new [folder name]
 - (Serve our site) bundle exec jekyll serve
-   - Only need "bundle exec" the 1st you run this command.
+  - Only need "bundle exec" the 1st you run this command.
 - (Serve our site and auto build on changes) jekyll serve --incremental
-- (Server ) jekyll serve --draft
+- (Serve out site including draft) bundle exec jekyll serve --draft
 
 ## Some useful tools
 
