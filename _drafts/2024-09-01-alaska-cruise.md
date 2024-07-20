@@ -10,13 +10,30 @@ header:
 
 ## Notes
 
-### To Check and reserve
+### To Do
 
+- Call Radisson Hotel Vancouver Airport at (236) 305-5339 about the airport shuttle.
+- Print Cruise confirmation/boarding pass for all people.
 - Whale-watching tour
-- Lumberjack show
+  - Print confirmation for all people.
+  - Call to ask about time (12 pm Princess arrival but 1:30pm tour start). Check where to pick us up.
+- Check rail trip's reservation for all people.
 
-## Port - Juneau, Alaska (12 pm - 10 pm)
+## Vancouver airport (YVR) to Radisson Hotel Vancouver Airport
 
+- [Radisson Hotel Vancouver Airport](https://www.choicehotels.com/british-columbia/richmond/radisson-hotels/cnc31?mc=llgoxxpx)
+  - 8181 Cambie Rd., Richmond, BC V6X 3X9, Canada
+  - (236) 305-5339
+  - Has free airport shuttle
+
+## Day 1 - Radisson Hotel Vancouver Airport to Princess cruise terminal
+
+- [Canada Line rapid transit](https://www.tripadvisor.com/ShowUserReviews-g181716-d182565-r492064859-Radisson_Hotel_Vancouver_Airport-Richmond_British_Columbia.html)
+  - Easiest and fastest
+
+## Day 3 - Port - Juneau, Alaska (12 pm - 10 pm)
+
+- Cruise arrives at 12 pm.
 - [Whale-watching](https://www.harvandmarvs-juneau-whale-watching.com/tours/outback-whale-watching-trips/) (1:30 pm - 6 pm)
 - Short visit
   - Downtown Juneau
@@ -29,8 +46,9 @@ header:
   - Mendenhall Glacier Visitor Center and Nugget Falls
     - Ask about the shuttle bus to visitor center.
 
-## Port - Skagway, Alaska (7 am - 8:30 pm)
+## Day 4 - Port - Skagway, Alaska (7 am - 8:30 pm)
 
+- Cruise arrives at 7 am.
 - Rail, Summit & Suspension Bridge With Brunch (7:30 am - 1:30 pm)
 - Short visit
   - Downtown Skagway
@@ -42,17 +60,22 @@ header:
 - Backup
   - Dog Sled Ride
 
-## Port - Ketchikan, Alaska (10 am - 6 pm)
+## Day 6 - Port - Ketchikan, Alaska (10 am - 6 pm)
 
+- Cruise arrives at 10 am.
 - Downtown Ketchikan
   - [Great Alaskan Lumberjack Show](https://alaskanlumberjackshow.com/)
     - 11:30 am - 12:45 pm   or  1:00 pm - 2:15 pm
+    - The show is very close to the cruise terminal. Just walk up and buy the tickets.
   - [Creek Street](https://www.experienceketchikan.com/creek-street-ketchikan.html)
     - [Chief Johnson Totem Pole](https://ketchikanstories.com/ketchicon/chief-johnsons-totem-pole/totem-pole)
     - [Dolly’s House Museum](https://www.alaska.org/detail/dollys-house-museum)
   - [Southeast Alaska Discovery Center](https://www.fs.usda.gov/recarea/tongass/recarea/?recid=78948) (Sun - Fri, 8 am - 4 pm)
 - [Totem Bight State Historical Park](https://www.travelalaska.com/Destinations/Parks-Public-Lands/Totem-Bight-State-Historical-Park)
   - Can take city bus from the port to the park.
+    - There’s a bus stop in front of the coffee shop called Alaska Coffee, and you will look for the bus that says on the front that it’s going to Totem Bight.
+    - $2 exact change.
+    - On the way back, get on the bus at the places where we got off the bus. Easier to get seat this way.
 - Backup
   - Misty Fjords National Monument
 
