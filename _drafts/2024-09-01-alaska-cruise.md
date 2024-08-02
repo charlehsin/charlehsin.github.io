@@ -12,7 +12,6 @@ header:
 
 ### To Do
 
-- Call Radisson Hotel Vancouver Airport at (236) 305-5339 about the airport shuttle.
 - Print Cruise confirmation/boarding pass for all people.
 - Whale-watching tour
   - Print confirmation for all people.
@@ -23,8 +22,11 @@ header:
 
 - [Radisson Hotel Vancouver Airport](https://www.choicehotels.com/british-columbia/richmond/radisson-hotels/cnc31?mc=llgoxxpx)
   - 8181 Cambie Rd., Richmond, BC V6X 3X9, Canada
-  - (236) 305-5339
+  - 236-305-5339, and (for shuttle) 604-276-8181
   - Has free airport shuttle
+    - International ARRIVALS: Courtesy shuttle pick-up zone is outside of the International Terminal Building close to the International Departure entrance doors, watch for signage inside the terminal.
+    - Canada domestic: Departures Level 3. The courtesy shuttle pick-up zone is outside of the Domestic Terminal Building to the right at the far end of the Domestic/Canada entrance doors.
+    - Arrival at south terminal: Call the hotel directlyfor shuttle pick-up.
 
 ## Day 1 - Radisson Hotel Vancouver Airport to Princess cruise terminal
 
