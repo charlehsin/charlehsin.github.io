@@ -14,9 +14,7 @@ header:
 
 - Print Cruise confirmation/boarding pass for all people.
 - Whale-watching tour
-  - Print confirmation for all people.
   - Call to ask about time (12 pm Princess arrival but 1:30pm tour start). Check where to pick us up.
-- Check rail trip's reservation for all people.
 
 ## Vancouver airport (YVR) to Radisson Hotel Vancouver Airport
 
