@@ -13,8 +13,6 @@ header:
 ### To Do
 
 - Print Cruise confirmation/boarding pass for all people.
-- Whale-watching tour
-  - Call to ask about time (12 pm Princess arrival but 1:30pm tour start). Check where to pick us up.
 
 ## Vancouver airport (YVR) to Radisson Hotel Vancouver Airport
 
@@ -35,6 +33,7 @@ header:
 
 - Cruise arrives at 12 pm.
 - [Whale-watching](https://www.harvandmarvs-juneau-whale-watching.com/tours/outback-whale-watching-trips/) (1:30 pm - 6 pm)
+  - Please arrive for pick up at least 15 minutes prior to departure. When you disembark, walk out to the main sidewalk in front of the yellow plastic barriers (do NOT go to the left) and meet the representative in a bright orange jacket, they will be holding a sign that says Harv & Marv’s Outback Alaska, if you do not find them by your designated pickup time, please call 907-209-8686. If you are unable to reach someone on that number, you can call us at: 907-209-7288. DO NOT GO TO THE TRAM…stay near your gangway.
 - Short visit
   - Downtown Juneau
     - [Amalga Distillery](https://www.amalgadistillery.com/)
