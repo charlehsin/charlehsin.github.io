@@ -8,12 +8,6 @@ header:
   teaser                 : /assets/images/teaser-default.jpg
 ---
 
-## Notes
-
-### To Do
-
-- Print Cruise confirmation/boarding pass for all people.
-
 ## Vancouver airport (YVR) to Radisson Hotel Vancouver Airport
 
 - [Radisson Hotel Vancouver Airport](https://www.choicehotels.com/british-columbia/richmond/radisson-hotels/cnc31?mc=llgoxxpx)
@@ -22,7 +16,7 @@ header:
   - Has free airport shuttle
     - International ARRIVALS: Courtesy shuttle pick-up zone is outside of the International Terminal Building close to the International Departure entrance doors, watch for signage inside the terminal.
     - Canada domestic: Departures Level 3. The courtesy shuttle pick-up zone is outside of the Domestic Terminal Building to the right at the far end of the Domestic/Canada entrance doors.
-    - Arrival at south terminal: Call the hotel directlyfor shuttle pick-up.
+    - Arrival at south terminal: Call the hotel directly for shuttle pick-up.
 
 ## Day 1 - Radisson Hotel Vancouver Airport to Princess cruise terminal
 
