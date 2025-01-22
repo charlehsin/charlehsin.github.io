@@ -12,9 +12,8 @@ header:
 
 ### To Do
 
-- Buy T-Money card
-
 - Buy 韓國轉接頭 (220v（伏特）、60Hz（赫茲），插頭形狀為圓型兩孔)
+- Buy T-Money card: 一般可以在便利商店、韓國地鐵站、機場的自動販賣機購買。
 - 出境: After getting boarding pass, download and register for Smart pass.
 
 ## Entering and departing South Korea 韓國入出境
@@ -30,6 +29,7 @@ header:
 
 - Buy T-Money card.
   - T-money卡大部分可在便利店、地鐵站、旅遊情報中心購買或加值金額 (Charge)
+  - T-Money卡內的儲值金額可以退還。如果卡內餘額在20,000韓元以下，你可以直接在便利商店申請退款；但如果超過20,000韓元，則需要親自前往T-Money總部辦理，並且會收取500韓元的手續費。需要注意的是，T-Money的空卡費用無法退還，不過因為T-Money卡沒有使用期限，建議可以留到下次來韓國時再使用。
 - Download [Naver map](https://creatrip.com/zh-TW/blog/12857) app
 
 ## Day 1, Wed 11 am: 西區
