@@ -12,28 +12,35 @@ header:
 
 ### To Do
 
-- Check Korea travel VISA requirements.
-  - For both US password and Taiwan password, it does not seem to need VISA. But double check again.
-- Check how to do currency exchange.
-  - 明洞的換錢所通常是匯率最好的，尤其是一品香、大使館與大信這三家。這三家換錢所靠近漢城華僑小學，都在彼此的附近
-- Buy 韓國轉接頭 (220v（伏特）、60Hz（赫茲），插頭形狀為圓型兩孔)
-- Decide day-trip tour and order.
-- Buy 仁川機場快線 普通車 (AREX) ticket
 - Buy T-Money card
-- Download Naver map app
+
+- Buy 韓國轉接頭 (220v（伏特）、60Hz（赫茲），插頭形狀為圓型兩孔)
+- 出境: After getting boarding pass, download and register for Smart pass.
+
+## Entering and departing South Korea 韓國入出境
+
+- 入境:
+  - US citizen and Taiwan citizen do not need VISA and K-ETA for less than 90 days tourism.
+  - Use bank ATM to get cash directly. ICN airport has bank ATMs.
+- 出境:
+  - [Fast-Tracking Your Departure at Incheon International Airport with Smart Pass](https://www.koreatravelpages.com/article/fast-tracking-your-departure-at-incheon-international-airport-with-smart-pass.html)
+  - [仁川機場出境人臉辨識「Smart Pass」教學](https://creatrip.com/zh-TW/blog/14287)
 
 ## Transportation
 
 - Buy T-Money card.
   - T-money卡大部分可在便利店、地鐵站、旅遊情報中心購買或加值金額 (Charge)
-- Download Naver map app
+- Download [Naver map](https://creatrip.com/zh-TW/blog/12857) app
 
 ## Day 1, Wed 11 am: 西區
 
 ### Airport to hotel
 
-- Holiday Inn Express Seoul Hongdae
+- Hotel: Holiday Inn Express Seoul Hongdae
 - 仁川機場快線 普通車 (AREX)
+  - Use T-Money card pay
+  - 要往弘大的旅客則要搭「普通車」(直達車會過站)
+  - [2025韓國機場交通 仁川機場到首爾：機場巴士、機場快線，弘大明洞彙整](https://bobbyworld.tw/2024-01-20-2776/)
 
 ### Ewha Womans University, 梨大 이대
 
