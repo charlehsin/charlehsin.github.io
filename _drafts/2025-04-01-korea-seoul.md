@@ -13,7 +13,12 @@ header:
 ### To Do
 
 - Buy 韓國轉接頭 (220v（伏特）、60Hz（赫茲），插頭形狀為圓型兩孔)
+- Get Korean cash at airport
+  - Usage (excluding T-Money card): 100,000 Korean won (roughly 69 USD) each person. Total: 200,000 Korean won. 最後幾天用現金吃飯把她盡量用完.
+  - T-Money card: 1400 Korean won each trip each person. 先 10,000 Korean won (roughly 7 USD) per person. Total: 20,000 Korean won.
+  - Overall, get 220,000 Korean won (roughly 151 USD) first.
 - Buy T-Money card: 一般可以在便利商店、韓國地鐵站、機場的自動販賣機購買。
+  - 可在仁川國際機場一樓的5號、10號出口前設置的首爾旅遊情報中心
 - 出境: After getting boarding pass, download and register for Smart pass.
 
 ## Entering and departing South Korea 韓國入出境
@@ -28,6 +33,7 @@ header:
 ## Transportation
 
 - Buy T-Money card.
+  - T-money卡像悠遊卡, 只能用現金儲值
   - T-money卡大部分可在便利店、地鐵站、旅遊情報中心購買或加值金額 (Charge)
   - T-Money卡內的儲值金額可以退還。如果卡內餘額在20,000韓元以下，你可以直接在便利商店申請退款；但如果超過20,000韓元，則需要親自前往T-Money總部辦理，並且會收取500韓元的手續費。需要注意的是，T-Money的空卡費用無法退還，不過因為T-Money卡沒有使用期限，建議可以留到下次來韓國時再使用。
 - Download [Naver map](https://creatrip.com/zh-TW/blog/12857) app
