@@ -8,11 +8,8 @@ header:
   teaser                 : /assets/images/teaser-default.jpg
 ---
 
-## Notes
+## To Do
 
-### To Do
-
-- Buy 韓國轉接頭 (220v（伏特）、60Hz（赫茲），插頭形狀為圓型兩孔)
 - Get Korean cash at airport
   - Usage (excluding T-Money card): 100,000 Korean won (roughly 69 USD) each person. Total: 200,000 Korean won. 最後幾天用現金吃飯把她盡量用完.
   - T-Money card: 1400 Korean won each trip each person. 先 10,000 Korean won (roughly 7 USD) per person. Total: 20,000 Korean won.
