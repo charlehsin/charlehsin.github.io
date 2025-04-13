@@ -64,11 +64,12 @@ Modify.
 ## Day 4 (Tue): Relaxing Morning and Departure
 
 - Morning
-  - Breakfast/Brunch
+  - Breakfast/Brunch (Choose one and cancel one)
     - [Brennan’s](https://www.brennansneworleans.com/)
       - A famous spot known for Bananas Foster and an indulgent Southern brunch. The restaurant's charming atmosphere makes it a perfect place for a leisurely meal.
       - Tuesday, April 22. 10:00 am. 2 People(Standard seating). 417 Royal Street New Orleans, LA, 70130. Under CF name and phone number.
     - Or Jazz Brunch buffet at [The Court of Two Sisters](https://www.courtoftwosisters.com/). However, the food here seems to be so so.
+      - Tuesday, April 22. 10:00 am. 2 People(Courtyard seating). 613 Royal Street. Under CF name and phone number.
   - Relax at The Ritz-Carlton or Last-Minute Exploration at French quarter
 - Afternoon
   - Departure to the airport (flight at 5:32 pm): taxi, rider share
